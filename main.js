@@ -28,6 +28,8 @@
       b.setAttribute("href", "#get");
       b.setAttribute("aria-disabled", "true");
       b.textContent = "Download link coming soon";
+      var note = document.getElementById("download-note");
+      if (note) note.textContent = "The Android app (APK) will be available to download from this page. The download link is coming soon.";
     }
   }
 
